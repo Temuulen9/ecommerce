@@ -1,0 +1,53 @@
+.cart_main{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 60%;
+}
+.cart_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #63666a;
+}
+
+.cart_table{
+    margin: 30px auto;
+    width: 60%;
+    display: grid;
+    color: #63666a;
+
+}
+.card_empty{
+    grid-column: 4;
+    grid-row: 1;
+    padding-bottom: 20px;
+}
+.cart_name{
+    grid-column: 1;
+    grid-row: 3;
+}
+.card_quantity{
+    grid-column: 3;
+    grid-row: 3;
+}
+.cart_price{
+    grid-column: 2;
+    grid-row: 3;
+}
+.card_all_price{
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.card_button{
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: #63666a;
+    cursor: pointer;
+}
+.card_button:hover{
+    color: #a7a8aa;
+}
+
